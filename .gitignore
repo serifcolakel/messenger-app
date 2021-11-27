@@ -4,13 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/src/components/
+/src/context/
 # testing
 /coverage
-
 # production
 /build
-
+.env
+.gitignore
 # misc
 .DS_Store
 .env.local
