@@ -7,6 +7,7 @@ export default function Footer() {
       <div className="footer">
         <a
           className="icon"
+          rel="noopener noreferrer"
           href="https://github.com/serifcolakel/"
           target="_blank"
         >
@@ -14,6 +15,7 @@ export default function Footer() {
         </a>
         <a
           className="icon"
+          rel="noopener noreferrer"
           href="https://www.linkedin.com/in/serifcolakel/"
           target="_blank"
         >

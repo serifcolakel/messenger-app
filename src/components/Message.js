@@ -9,7 +9,7 @@ const Message = ({ msg, user1 }) => {
   }, [msg]);
   return (
     <div
-      className={`message_wrapper ${msg.from === user1 ? "own" : ""}`}
+      className={`message_wrapper ${msg.from === user1 ? "own" : "dell"}`}
       ref={scrollRef}
     >
       <p className={msg.from === user1 ? "me" : "friend"}>
