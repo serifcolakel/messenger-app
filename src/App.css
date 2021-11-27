@@ -320,3 +320,13 @@ section .form {
 .icon:hover {
   color: blue;
 }
+
+.noerror {
+  color: green;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
