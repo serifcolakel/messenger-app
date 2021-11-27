@@ -132,10 +132,6 @@ section .form {
   border-right: 2px solid var(--color-6);
   overflow-y: auto;
 }
-.noerror {
-  color: green;
-  text-align: center;
-}
 .user_wrapper {
   margin-bottom: 10px;
   padding: 10px;
@@ -278,11 +274,12 @@ section .form {
 
 @media screen and (max-width: 576px) {
   .home_container {
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 3fr 10fr;
   }
   .user_wrapper {
     display: none;
   }
+
   .sm_container {
     padding: 10px 0px;
     text-align: center;
@@ -321,5 +318,5 @@ section .form {
 }
 
 .icon:hover {
-  color: #34eb52;
+  color: blue;
 }
