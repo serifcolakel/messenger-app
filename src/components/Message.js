@@ -3,7 +3,8 @@ import Moment from "react-moment";
 
 const Message = ({ msg, user1 }) => {
   const scrollRef = useRef();
-
+  const key = process.env.REACT_APP_API_KEY;
+  console.log(key);
   useEffect(() => {
     scrollRef.current.scrollIntoView({ behavior: "smooth" });
   }, [msg]);
@@ -16,6 +17,7 @@ const Message = ({ msg, user1 }) => {
         {msg.media ? <img src={msg.media} alt={msg.text} /> : null}
         <br />
         {msg.text}
+
         <br />
         <small>
           <Moment fromNow>{msg.createdAt.toDate()}</Moment>
