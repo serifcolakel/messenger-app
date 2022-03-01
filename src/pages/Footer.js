@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Footer() {
   return (
-    <div style={{ borderTop: "1px solid white" }}>
+    <div>
       <h3 className="footer">created by SERİF COLAKEL</h3>
       <div className="footer">
         <a
