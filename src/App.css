@@ -3,7 +3,7 @@
 }
 
 :root {
-  --color-1: #242526;
+  --color-1: #5d3ebc;
   --color-2: white;
   --color-3: #0084ff;
   --color-4: grey;
@@ -125,7 +125,6 @@ section .form {
   grid-template-columns: 1fr 3fr;
   overflow: hidden;
   height: calc(100vh - 70px);
-  width: 100vw;
 }
 .users_container {
   margin-top: 10px;
